@@ -1,0 +1,42 @@
+html{
+    background-image: url("images/bacteria.jpg");
+    background-repeat:inherit ;
+    background-size: cover;
+}
+
+
+/* this is how to add a font from the font book*/
+@font-face{
+    font-family: knobby-knees;
+    src:url(./fonts/knobby-knees.ttf)
+}
+@font-face {
+    font-family: mono;
+    src: url(./fonts/MartianMono-VariableFont_wdth\,wght.ttf);
+}
+h1{
+    font-family: mono;
+}
+h2{
+    font-family: knobby-knees;
+}
+
+.my-name-is{
+text-align: center;
+background-color: bisque; 
+padding: 20px;
+margin: 0;
+}
+.welcome{
+    text-align: center;
+    background-color: bisque;
+    padding:20px;
+    margin-top: -20px;
+   
+
+
+}
+/* WORDS AND SUCH STYLING */
+.homepageupdate1{
+    size: 50px;
+}
