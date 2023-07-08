@@ -1,7 +1,8 @@
 html{
     background-image: url("images/bacteria.jpg");
-    background-repeat:inherit ;
-    background-size: cover;
+    background-repeat:repeat-y ;
+
+  
 }
 
 
@@ -23,13 +24,13 @@ h2{
 
 .my-name-is{
 text-align: center;
-background-color: bisque; 
+background-color: rgb(0, 255, 4); 
 padding: 20px;
 margin: 0;
 }
 .welcome{
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(255, 0, 187);
     padding:20px;
     margin-top: -20px;
    
@@ -40,3 +41,24 @@ margin: 0;
 .homepageupdate1{
     size: 50px;
 }
+
+.blahblahblah:hover {
+filter:brightness(80%)
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .email{
+    HOW DO I MAKE THIS A COLOR 
+  }
