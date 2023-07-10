@@ -16,7 +16,7 @@ html{
     src: url(./fonts/MartianMono-VariableFont_wdth\,wght.ttf);
 }
 h1{
-    font-family: mono;
+    font-family: knobby-knees;
 }
 h2{
     font-family: knobby-knees;
@@ -43,6 +43,10 @@ margin: 0;
 }
 
 .blahblahblah:hover {
+filter:brightness(80%)
+}
+
+.sketchbook:hover{
 filter:brightness(80%)
 }
 
