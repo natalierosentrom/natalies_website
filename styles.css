@@ -1,6 +1,7 @@
 html{
-    background-image: url("images/bacteria.jpg");
-    background-repeat:repeat-y ;
+    background-image: url("images/bedroomwall.jpg");
+    background-size: cover;
+    
 
   
 }
@@ -22,15 +23,33 @@ h2{
     font-family: knobby-knees;
 }
 
+.instagramlogo{
+    height:44px;
+}
+.instagramlogo:hover{
+    transform: scale(1.05);
+    filter: saturate(500%);
+}
+
+.emaillogo:hover{
+    transform: scale(1.05);
+}
+
+.logoadjust{
+    float:right;
+    padding-right: 10px;
+margin-top: -130px;
+}
+
 .my-name-is{
 text-align: center;
-background-color: rgb(0, 255, 4); 
-padding: 20px;
+
+padding: 30px;
 margin: 0;
 }
 .welcome{
     text-align: center;
-    background-color: rgb(255, 0, 187);
+    color: white;
     padding:20px;
     margin-top: -20px;
    
@@ -43,18 +62,29 @@ margin: 0;
 }
 
 .blahblahblah:hover {
-filter:brightness(80%)
+filter:saturate(300%);
+transform: scale(1.05);
 }
 
 .sketchbook:hover{
-filter:brightness(80%)
+filter:saturate(300%);
+transform: scale(1.05);
 }
 
+.schoolstuff:hover{
+filter:saturate(300%);
+transform: scale(1.05);    
+}
+
+.tattoos:hover{
+filter:saturate(300%);
+transform: scale(1.05);    
+}
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    
   }
   
   /* Clear floats after image containers */
@@ -66,3 +96,50 @@ filter:brightness(80%)
   .email{
     HOW DO I MAKE THIS A COLOR 
   }
+
+
+
+/* CSS */
+.button {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 100px;
+}
+
+.button:hover {
+  background-color: #ff29b1;
+  box-shadow: #1420ff 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
