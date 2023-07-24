@@ -1,9 +1,6 @@
 html{
     background-image: url("images/bedroomwall.jpg");
     background-size: cover;
-    
-
-  
 }
 
 
@@ -38,23 +35,19 @@ h2{
 .logoadjust{
     float:right;
     padding-right: 10px;
-margin-top: -130px;
+    margin-top: -130px;
 }
 
 .my-name-is{
-text-align: center;
-
-padding: 30px;
-margin: 0;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
 }
 .welcome{
     text-align: center;
     color: white;
     padding:20px;
     margin-top: -20px;
-   
-
-
 }
 /* WORDS AND SUCH STYLING */
 .homepageupdate1{
@@ -62,39 +55,50 @@ margin: 0;
 }
 
 .blahblahblah:hover {
-filter:saturate(300%);
-transform: scale(1.05);
+    filter:saturate(300%);
+    transform: scale(1.05);
 }
 
 .sketchbook:hover{
-filter:saturate(300%);
-transform: scale(1.05);
+    filter:saturate(300%);
+    transform: scale(1.05);
 }
 
 .schoolstuff:hover{
-filter:saturate(300%);
-transform: scale(1.05);    
+    filter:saturate(300%);
+    transform: scale(1.05);    
 }
 
 .tattoos:hover{
-filter:saturate(300%);
-transform: scale(1.05);    
+    filter:saturate(300%);
+    transform: scale(1.05);    
+}
+
+.modeling:hover{
+    filter:saturate(300%);
+    transform: scale(1.05);
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
     width: 33.33%;
-    
   }
   
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
+
+  @media screen and (max-width: 1095px) {
+    .column {
+      width: 50%;
+    }
   }
-  .email{
-    HOW DO I MAKE THIS A COLOR 
+
+  @media screen and (max-width: 700px) {
+    .column {
+      width: 100%;
+      
+    }
+    .row{
+        flex-direction: row-reverse;
+    }
   }
 
 
