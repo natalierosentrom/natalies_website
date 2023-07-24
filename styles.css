@@ -1,4 +1,4 @@
-html{
+body{
     background-image: url("images/bedroomwall.jpg");
     background-size: cover;
 }
@@ -15,9 +15,18 @@ html{
 }
 h1{
     font-family: knobby-knees;
+    
+
 }
 h2{
     font-family: knobby-knees;
+}
+
+.wholeshabang{
+    margin:0px;
+    align-items:  center;
+    justify-content: center;
+    padding-left: 40px;
 }
 
 .instagramlogo{
@@ -128,7 +137,7 @@ h2{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 .button:hover {
