@@ -68,26 +68,31 @@ h2{
 .blahblahblah:hover {
     filter:saturate(700%);
     transform: scale(1.05);
+    border-radius: 10%;
 }
 
 .sketchbook:hover{
-    filter:saturate(300%);
+    filter:saturate(500%);
     transform: scale(1.05);
+    border-radius: 10%;
 }
 
 .schoolstuff:hover{
     filter:saturate(700%);
     transform: scale(1.05);    
+    border-radius: 10%;
 }
 
 .tattoos:hover{
-    filter:saturate(300%);
-    transform: scale(1.05);    
+    filter:saturate(700%);
+    transform: scale(1.05); 
+    border-radius: 10%;   
 }
 
 .modeling:hover{
-    filter:saturate(300%);
+    filter:saturate(700%);
     transform: scale(1.05);
+    border-radius: 10%;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -146,6 +151,7 @@ h2{
   background-color: #ff29b1;
   box-shadow: #1420ff 0 -6px 8px inset;
   transform: scale(1.125);
+  color: rgb(251, 255, 0);
 }
 
 .button:active {
@@ -158,3 +164,9 @@ h2{
     padding: .75rem 2rem;
   }
 }
+
+.unicorn{
+  text-align: center;
+  
+}
+
