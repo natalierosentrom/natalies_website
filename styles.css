@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/bedroomwall.jpg");
+    background-image: url("images/treeone.jpeg");
     background-size: cover;
 }
 
@@ -39,6 +39,8 @@ h2{
 
 .emaillogo:hover{
     transform: scale(1.05);
+    filter: saturate(800%);
+
 }
 
 .logoadjust{
@@ -51,7 +53,8 @@ h2{
     text-align: center;
     padding: 30px;
     margin: 0;
-    color:orangered;
+    color:rgb(255, 0, 140);
+    
 }
 .welcome{
     text-align: center;
@@ -94,6 +97,12 @@ h2{
     transform: scale(1.05);
     border-radius: 10%;
 }
+
+.otherart:hover{
+  filter:saturate(700%);
+  transform: scale(1.05);
+  border-radius: 10%;
+}
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
@@ -122,10 +131,10 @@ h2{
 /* CSS */
 .button {
   appearance: none;
-  background-color: #FFFFFF;
+  background-color: #d0ffa4;
   border-radius: 40em;
   border-style: none;
-  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-shadow: #911568 0 -12px 6px inset;
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
