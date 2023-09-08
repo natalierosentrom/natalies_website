@@ -22,6 +22,17 @@ h2{
     font-family: knobby-knees;
 }
 
+.NRBanner{
+  max-width: 100%;
+  height:auto;
+  width: auto;
+  width: 1400px;
+  object-fit: cover;
+}
+
+.logos{
+  position: right;
+}
 .wholeshabang{
     margin:0px;
     align-items:  center;
