@@ -43,6 +43,7 @@ h2{
   width: auto;
   width: 1400px;
   object-fit: cover;
+  padding:0px;
 }
 
 .logos{
