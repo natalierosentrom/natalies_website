@@ -104,7 +104,7 @@ h2{
 }
 
 .sketchbook:hover{
-    filter:saturate(500%);
+    filter:saturate(300%);
     transform: scale(1.05);
     border-radius: 10%;
     cursor: pointer;
@@ -132,7 +132,7 @@ h2{
 }
 
 .otherart:hover{
-  filter:saturate(700%);
+  filter:saturate(200%);
   transform: scale(1.05);
   border-radius: 10%;
   cursor: pointer;
@@ -165,7 +165,7 @@ h2{
 /* CSS */
 .button {
   appearance: none;
-  background-color: #d0ffa4;
+  background-color: #a9ff59;
   border-radius: 40em;
   border-style: none;
   box-shadow: #911568 0 -12px 6px inset;
@@ -210,6 +210,11 @@ h2{
 
 .unicorn{
   text-align: center;
+  margin:0;
   
 }
+.unicorn:hover{
+  filter:saturate(400%)
+}
+
 
