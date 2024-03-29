@@ -1,0 +1,113 @@
+<style>
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.nav {
+  min-width: 700px;
+  width: 50%;
+}
+
+.nav--list {
+  width: 100%;
+  height: 100px;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.item,
+.item--wrapper {
+  height: 50px;
+  width: 120px;
+  margin: 1px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transform-origin: top center;
+  transform: translateY(0px) rotateX(0deg);
+  transition: transform 300ms linear;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.item--wrapper::before,
+.item--wrapper::after {
+  content: attr(data-item);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 1px #666;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transform: translateY(0px) rotateX(0deg);
+  transform-style: preserve-3d;
+  transition: transform 300ms linear;
+  background: #1d4289;
+}
+
+.item--wrapper::before {
+  background: #000;
+  color: #00bfb2;
+  transform-origin: bottom center;
+  transform: translateY(-50px) rotateX(-90deg);
+}
+
+.item:hover .item--wrapper {
+  transform: translateY(50px) rotateX(90deg);
+}
+
+</style>
+<head>
+<ul class="container">
+    <nav class="nav">
+      <ul class="nav--list">
+        <li class="item">
+          <a href="#" class="item--wrapper" data-item="Blog">Blog</a>
+        </li>
+        <li class="item">
+          <a href="#" class="item--wrapper" data-item="School Stuff">School Stuff</a>
+        </li>
+        <li class="item">
+          <a href="#" class="item--wrapper" data-item="Sketchbook Gallery">Sketchbook Gallery</a>
+        </li>
+        <li class="item">
+          <a href="#" class="item--wrapper" data-item="Nat's Tats Page">Nat's Tats Page</a>
+        </li>
+        <li class="item">
+          <a href="#" class="item--wrapper" data-item="Modeling Portfolio">Modeling Portfolio</a>
+        </li>
+        <li class="item">
+            <a href="#" class="item--wrapper" data-item="More Art">More Art</a>
+          </li>
+          <li class="item">
+            <a href="#" class="item--wrapper" data-item="Soundboard">Soundboard</a>
+          </li>
+      </ul>
+    </nav>
+    </div>
+
+</head>

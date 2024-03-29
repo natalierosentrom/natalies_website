@@ -1,0 +1,625 @@
+
+<!doctype html>
+<HTML lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="This is a site that the students will use for practicing HTML with a lot of information"/>
+    <meta name="keywords" content="HTML, CSS, XML"/>
+    <title>Nat Rosenstrom</title>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <div class="backtohome">
+        <img src="images/BACK TO HOME.png" style="width:100px; padding: 10px;" onclick="location.href='index.html'">
+    </div>
+
+</head>
+
+<style>
+
+.backtohome :hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+html{
+
+        
+  
+  background-image: url(https://img.myloview.com/posters/stars-of-different-sizes-a-small-star-a-large-star-of-light-yellow-and-yellow-color-on-a-blue-background-seamless-pattern-vector-illustration-400-219438720.jpg);
+      font-family: Georgia, serif;
+  }
+  
+
+  p span{
+      background-color: beige;
+  
+  }
+  .deletebackground{
+      background-color: rgba(255, 228, 173, 0.0);
+  }
+  .youtubebutton{
+      margin-bottom: -5px;
+  }
+  ul {
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0; /* consider changing it */
+      padding: 0; /* consider changing it */
+     overflow: hidden;
+   }
+  
+      li {
+      float: left;
+      }
+  
+      li a {
+      display: block;
+      color: rgb(134, 56, 56); /* currently overridden by the a{ selector bellow */
+      text-align: center; /* consider changing it */
+      padding: 14px 16px; /* consider changing it */
+      margin-top: 20px;
+      margin-right: 10px;/*consider changing it*/
+      text-decoration:none; /* consider changing it */
+      background-color: rgb(30,215,96); /* change it */
+      border-radius: 20px;
+      width:100px;
+      height:100px;
+   }
+     
+      li .meandhernav:hover{
+      background-image:url(https://images.genius.com/d212e4a64223739399a888cf19cf5a58.280x286x1.jpg);
+      background-size:cover; 
+     }
+  
+     
+     li .thinningnav:hover{
+      background-image:url(https://media.pitchfork.com/photos/5970fb141a360c68408a98f2/1:1/w_600/habit_snail%20mail.jpg);
+      background-size:cover;
+     }
+  
+     li .happinessnav:hover{
+      background-image:url(https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png);
+      background-size:cover;
+     }
+  
+     li .dontdeletethekissesnav:hover{
+      background-image:url(https://upload.wikimedia.org/wikipedia/en/2/2c/Don%27t_Delete_the_Kisses.jpg); 
+      background-size:cover;
+     }
+     
+   li .coolaboutitnav:hover{
+   background-image:url(https://upload.wikimedia.org/wikipedia/en/2/21/Boygenius_-_the_record.jpg);
+   background-size:cover;
+    }
+   
+  
+  a {text-decoration: none;
+     
+      }
+      a:link, a:visited {
+      color: rgb(149, 1, 68);
+      }
+  
+      a:hover, a:active {
+      color: rgb(255, 255, 255);
+     }
+  h1{
+      color: darkblue;
+      font-size: 36px;
+      text-align: center; 
+      text-shadow:3px 2px rgb(255, 165, 165);
+  }
+  
+  
+  .column {
+      float: left;
+      width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  .thinningtext span{
+      background-color:rgb(189, 208, 134);
+     
+  
+  }
+  .thinningtext {
+      padding-left: 100px;
+  }
+  
+  .column span{
+  background-color: beige;
+  }
+  
+  .raingif{
+      position: absolute;
+      padding-top: 150px;
+      top: 0;
+      filter:drop-shadow(2px 2px 2px blue)
+      
+  }
+  h2 { 
+      color: rgb(253, 109, 109);
+      font-size: 42px;
+      margin: 0px, 0px;
+      text-align: center;
+  }
+  h2 span{
+  
+      background-color: rgb(200, 212, 95);
+      padding: 7px;
+      color: rgb(255, 150, 177);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(94, 255, 0), 0 0 5px rgb(0, 175, 12);
+  }
+  h3{
+      color: rgb(70, 70, 70);
+      background-color:rgb(172, 182, 81);  
+      padding: 5px;
+      text-align: center;
+  }
+  
+  .maintitle {
+      text-align:center;
+      background-color: rgb(255, 165, 165);
+  }
+  h4:hover{
+      background-color: red;
+  }
+  h4 {
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(255, 183, 227);
+      width:100px;
+      height: 60px;
+      border-radius: 20px;
+      text-align: center;
+     
+  }
+  .sadwoman{
+      filter:saturate(150%);
+      margin-bottom:20px;
+  }
+  
+  
+  .listenonspotify:hover{
+      filter:invert(100%);
+  
+  }
+  .listenonspotify{
+      margin-bottom: 10px;
+  }
+  .h4{
+      margin-top: 20px;
+  }
+  .ihateher{
+      color:rgb(0, 0, 0);
+  }
+  .ihateher span{
+      background-color: rgb(252, 124, 175);
+  }
+  .thinningcover{
+      padding-top:70px;
+      padding-left: 30px;
+      filter:saturate(120%);
+      rotate: -10deg;
+      box-shadow: 10px 10px 10px rgba(73, 128, 172, 0.791) ;
+      
+  }
+  .imageplustext{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  
+  }
+  .happinesscoverimage {
+      box-shadow: 10px 10px 10px rgba(73, 128, 172, 0.791) ;
+      padding-top:-40px;
+  }
+  .dontdeleteedit{
+      box-shadow: 10px 10px 10px rgba(73, 128, 172, 0.791) ;
+  }
+  .coolaboutitimageandtext{
+      display:flex; 
+      flex-direction:row;
+      flex-wrap: wrap;
+      gap: 100px;
+  }
+  .coolaboutitpicture {
+       padding-top:70px;
+      padding-left: 30px;
+      filter:saturate(120%);
+      rotate: -10deg;
+      box-shadow: 10px 10px 10px rgba(73, 128, 172, 0.791) ;
+  }
+  .coolaboutitbackgroundcolor span{
+      background-color: rgb(255, 195, 117);
+  
+  }
+  .ihateherflex{
+      display:flex; 
+      flex-direction:row;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .ihaterherimage{
+      box-shadow: 10px 10px 10px rgba(73, 128, 172, 0.791) ;
+  }
+  .dontdeletetext span{
+      background-color: rgb(183, 255, 125);
+  }
+  .dontdeletetext{
+      display:flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+  }
+</style>
+<body>
+
+<h1 class="title" id="Top">My Favorite Sad Gay Songs </h1>
+<h3 class="maintitle">By Natalie Rosenstrom</h3>
+<img class="sadwoman" alt="sad sad-woman-at-the-meadow" width="100%"
+     src="https://media.istockphoto.com/id/689320226/photo/sad-woman-at-the-meadow.jpg?s=1024x1024&w=is&k=20&c=_hPIXIFKrOyAto1erNRUUqq4mndR9SfMecmE_S5YOoI=">
+<br>
+
+<img alt="raingif" width=100% height=120% src="gayimages/raingif.gif" class="raingif"></a>
+
+<nav>
+    <ul>
+        <li><a class="happinessnav" href="#happinessSong">happiness</a></li>
+        <li><a class="thinningnav" href="#ThinningSong">Thinning</a></li>
+        <li><a class="dontdeletethekissesnav" href="#DontDeletetheKissesSong">Don't Delete the Kisses</a></li>
+        <li><a class="coolaboutitnav" href="#CoolAboutItSong">Cool About It</a></li>
+        <li><a class="meandhernav" href="#MeAndHerSong">Me and Her</a></li>
+        <li><a class="deletebackground" href='https://open.spotify.com/user/nelly1603' target="_blank"> <img
+                class="listenonspotify" alt="ListenOnSpotify" height="100px" src="gayimages/ListenOnSpotify.png"></a></li>
+    </ul>
+
+</nav>
+<h2 id="happinessSong"><span>happiness</span></h2>
+<h3>By Taylor Swift</h3>
+<p><a href="https://www.youtube.com/watch?v=tP4TTgt4nb0" target="_blank">Listen Here </a> <img class="youtubebutton"
+                                                                                               width=20px height=20px
+                                                                                               src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=2000">
+</p>
+
+
+<div class="row">
+    <div class="column">
+        <span>
+        Honey, when I'm above the trees </br>
+            I see this for what it is</br>
+            But now I'm right down in it, all the years I've given</br>
+            Is just shit we're dividin' up</br>
+            Showed you all of my hiding spots</br>
+            I was dancing when the music stopped</br>
+            And in the disbelief, I can't face reinvention</br>
+            I havent met the new me yet</br>
+            </br>
+            There'll be happiness after you</br>
+            But there was happiness because of you</br>
+
+            Both of these things can be true</br>
+            There is happiness</br>
+            </br>
+            Past the blood and bruise</br>
+            Past the curses and cries</br>
+            Beyond the terror in the nightfall</br>
+
+            Haunted by the look in my eyes</br>
+            That would've loved you for a lifetime</br>
+            Leave it all behind</br>
+            And there is happiness</br>
+            </br>
+            Tell me, when did your winning smile</br>
+            Begin to look like a smirk?</br>
+            When did all our lessons start to look like weapons</br>
+            Pointed at my deepest hurt?</br>
+            I hope she'll be a beautiful fool</br>
+            Who takes my spot next to you</br>
+            No, I didn't mean that</br>
+            Sorry, I can't see facts through all of my fury</br>
+            You haven't met the new me yet</br>
+            <br>
+                There'll be happiness after me</br>
+            But there was happiness because of me</br>
+            Both of these things, I believe</br>
+            There is happiness </br>
+            </br>
+            In our history, across our great divide</br>
+            There is a glorious sunrise</br>
+            Dappled with the flickers of light</br>
+            From the dress I wore at midnight, leave it all behind</br>
+            And there is happiness</br>
+        </br>
+        I can't make it go away by making you a villain</br>
+        I guess it's the price I paid for seven years in Heaven</br>
+        And I pulled your body into mine</br>
+        Every goddamn night, now I get fake niceties</br>
+        No one teaches you what to do</br>
+        When a good man hurts you</br>
+        And you know you hurt him too</br>
+    </span>
+    </div>
+    <div class="column">
+        <img height=350px width=350px class="happinesscoverimage" src="gayimages/happi.png">
+       <br>
+        <span>
+           
+            </br>
+            I can't make it go away by making you a villain</br>
+            I guess it's the price I paid for seven years in Heaven</br>
+            And I pulled your body into mine</br>
+            Every goddamn night, now I get fake niceties</br>
+            No one teaches you what to do</br>
+            When a good man hurts you</br>
+            And you know you hurt him too</br>
+            </br>
+            Honey, when I'm above the trees</br>
+            I see it for what it is</br>
+            But now my eyes leak acid rain on the pillow where you used to lay your head</br>
+            After giving you the best I had</br>
+            Tell me what to give after that</br>
+            All you want from me now is the green light of forgiveness </br>
+            You haven't met the new me yet</br>
+            And I think she'll give you that</br>
+            </br>
+            There'll be happiness after you</br>
+            But there was happiness because of you too</br>
+            Both of these things can be true</br>
+            There is happiness </br>
+            </br>
+            In our history, across our great divide</br>
+            There is a glorious sunrise</br>
+            Dappled with the flickers of light</br>
+            From the dress I wore at midnight, leave it all behind</br>
+            Oh, leave it all behind</br>
+            Leave it all behind</br>
+            And there is happiness</br>
+            <br>
+        </span>
+    </div>
+</div>
+
+
+<br>
+
+<br>
+<h4><a href="#Top">Back to top</a></h4>
+<h2 id="ThinningSong"><span>Thinning</span></h2>
+<h3>By Snail Mail</h3>
+<p><a href="https://www.youtube.com/watch?v=sMRHo7jDgyA" target="_blank">Listen Here </a><img class="youtubebutton"
+                                                                                              width=20px height=20px
+                                                                                              src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=2000">
+</p>
+<div class="imageplustext">
+<img width=300px height=300px class="thinningcover"
+     src="gayimages/thinningedit.png" height="500">
+<br>
+<p>
+    <div class="thinningtext"> 
+        <span>
+    Haven't felt right in a week</br>
+    And I'm thinning out</br>
+    And it hurts bad</br>
+    I gotta get back</br>
+    Hot head and dreamless sleep</br>
+    I could just slip down</br>
+    And on the wrong track</br>
+    I gotta get back</br>
+    <br>
+    I wanna spend the entire year</br>
+    Just faced down</br>
+    And on my own time</br>
+    I wanna waste mine</br>
+    <br>
+    And spend the rest of it asking myself</br>
+    "Is this who you are?"</br>
+    And I don't know</br>
+    It just feels gross</br>
+    <br>
+    And I don't think there's anything wrong</br>
+    I don't think there's anything wrong</br>
+    And I don't think there's anything wrong</br>
+    I don't think there's anything wrong</br>
+    <br>
+    Sunlight on the back of my arms</br>
+    Just thins me out</br>
+    To a different time</br>
+    I wanna waste mine</br>
+</span>
+</div>
+</div>
+
+
+</p>
+<h4><a href="#Top">Back to top</a></h4>
+<h2 id="DontDeletetheKissesSong"><span>Don't Delete the Kisses</span></h2>
+<h3>By Wolf Alice</h3>
+<p><a href="https://www.youtube.com/watch?v=WqxE-zppu30" target="_blank">Listen Here </a><img class="youtubebutton"
+                                                                                              width=20px height=20px
+                                                                                              src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=2000">
+</p>
+
+<img height=300px width=300px src="gayimages/dontdeletethekissesedit.png" class="dontdeleteedit">
+<div class="dontdeletetext">
+<p><span>
+    I see the signs of a lifetime, you till I die <br>
+    And I'm swiftly out, Irish goodbye <br>
+    <br>
+    What if it's not meant for me? <br>
+    Love <br>
+    What if it's not meant for me? <br>
+    Love <br>
+    <br>
+    I'd like to get to know you <br>
+    I'd like to take you out<br>
+    We'd go to The Hail Mary<br>
+    And afterwards make out<br>
+    Instead, I'm typing you a message<br>
+    That I know I'll never send<br>
+    Rewriting old excuses<br>
+    Delete the kisses at the end<br>
+    When I see you, the whole world reduces<br>
+    To just that room<br>
+    And then I remember and I'm shy<br>
+    That gossip's eye will look too soon<br>
+    And then I'm trapped, overthinking<br>
+    And yeah, probably self-doubt<br>
+    You tell me to get over it<br>
+    And to take you out<br>
+    But I can't, I'm too scared<br>
+    And here's the night bus, I have to go<br>
+    And the doors are closing, and you were waving<br>
+    And I like you, and I'll never let it show<br>
+    And you won't wait, and maybe I won't mind<br>
+    I work better on my own<br>
+    And now I'm home, a little bit drunk<br>
+    And I ask myself
+    <br>
+    What if it's not meant for me?<br>
+    Love<br>
+    What if it's not meant for me?<br>
+    Love<br>
+    <br>
+    A few days pass since I last saw you<br>
+    And you've taken over my mind<br>
+    I'm retelling jokes you made that made me laugh<br>
+    Pretending that they're mine<br>
+    I wanna tell the whole world about you<br>
+    I think that that's a sign<br>
+    I'm losing self-control and it's you<br>
+    It really is, one thousand times<br>
+    I look at your picture and I smile<br>
+    How awful's that? I'm like a teenage girl<br>
+    I might as well write all over my notebook<br>
+    That you "rock my world"<br>
+    But you do, you really do<br>
+    You've turned me upside down<br>
+    And that's okay, I'll let it happen<br>
+    'Cause I like having you around<br>
+    I'm electric, a romantic clichÃ©<br>
+    Yeah, they really are all true<br>
+    When we catch eyes at that stupid party<br>
+    I know exactly what to do<br>
+    I'll take your hand, and we will leave<br>
+    French exits from me and you<br>
+    And now I'm home, a little bit drunk<br>
+    Some things don't change<br>
+    And I know now<br>
+    <br>
+    Me and you were meant to be<br>
+    In love<br>
+    Me and you were meant to be<br>
+    In love<br>
+    Me and you<br>
+    <br>
+    I see the signs of a lifetime, you till I die <br>
+</p>
+</span>
+</div>
+<h4><a href="#Top">Back to top</a></h4>
+<h2 id="CoolAboutItSong"><span>Cool About It</span></h2>
+<h3>By Boy Genius</h3>
+<p><a href="https://www.youtube.com/watch?v=G-XICfi4j3Q" target="_blank">Listen Here </a><img class="youtubebutton"
+                                                                                              width=20px height=20px
+                                                                                              src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=2000">
+</p>
+<div class="coolaboutitimageandtext">
+
+<img  width= 300px height=300px src="gayimages/" class="coolaboutitpicture">
+<div class="coolaboutitbackgroundcolor">
+<p><span>
+    Met you at the dive bar to go shoot some pool<br>
+    And make fun of the cowboys with the neck tattoos<br>
+    Ask you easy questions about work and school<br>
+    I'm trying to be cool about feeling like an absolute fool about<br>
+    Wishing you were kind enough to be cruel about it<br>
+    Telling myself I can always do without it<br>
+    Knowing that it probably isn't true<br>
+    <br>
+    I came prepared for absolution if you'd only ask<br>
+    So I take some offense when you say, "No regrets"<br>
+    I remember it's impossible to pass your test<br>
+    But I'm trying to forget about it<br>
+    Feeling like I'm breaking a sweat about it<br>
+    Wishing you would kindly get out of my head about it<br>
+    Telling myself one day I'll forget about it<br>
+    Knowing that it probably isn't true <br>
+    <br>
+    Once I took your medication to know what it's like<br>
+    And now I have to act like I can't read your mind<br>
+    I ask you how you're doing and I let you lie<br>
+    But we don't have to talk about it<br>
+    I can walk you home and practice method acting<br>
+    I'll pretend being with you doesn't feel like drowning<br>
+    Telling you it's nice to see how good you're doing<br>
+    Even though we know it isn't true<br>
+</span>
+</div>
+</p>
+</div>
+<h4><a href="#Top">Back to top</a></h4>
+<h2 id="MeAndHerSong"><span>Me and Her</span></h2>
+<h3>By Heavens to Betsy</h3>
+<p><a href="https://www.youtube.com/watch?v=KCcZrmcgWHI" target="_blank">Listen Here </a><img class="youtubebutton"
+                                                                                              width=20px height=20px
+                                                                                              src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=2000">
+</p>
+<div class="ihateherflex">
+<p>
+    <div class="ihateher">
+    <span>
+    I used to see her almost every day and when I didn't, I didn't feel so great<br>
+    When we were together, I thought everything was better<br>
+    Now I just have to pretend I just never cared that much<br>
+    <br>
+    I hate her<br>
+    And I love her<br>
+    <br>
+    You ask me why I'm getting so upset<br>
+    You don't understand a girl who's passionate for another girl<br>
+    One day I think I love her then I think I want to kill her<br>
+    You tell me to calm down, what is your fucking problem?<br>
+    <br>
+    I hate her<br>
+    And I love her<br>
+    <br>
+    You said it once to me that girls are friends and friendships end<br>
+    And memories all in my head of love so strong it'd knock you dead<br>
+    They're thrown away like a melted ring and you just can't say anything<br>
+    And even though I know that's not true I still don't know what to do<br>
+    <br>
+    I hate her<br>
+    And I love her<br>
+    I hate her<br>
+    And I love her<br>
+    I hate, I hate, I hate her<br>
+    And I love her<br>
+</span>
+</div>
+</p>
+<img class="ihaterherimage" height=300px width=300px src="gayimages/monstersarereal.png">
+</div>
+
+<h4><a href="#Top">Back to top</a></h4>
+<footer>
+    <p><a href="mailto:nmrosenstrom@gmail.com">Click here to send me an email</a></p>
+
+
+    <p><a href="https://www.instagram.com/natalierosenstrom/" target="_blank">Follow me on Instagram! </a></p>
+</footer>
+</body>
+</HTML>

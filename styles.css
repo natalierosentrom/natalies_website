@@ -6,6 +6,7 @@ body{
 ul{
   color:antiquewhite;
   list-style-type: none;
+  padding:20px;
   
 }
 
@@ -17,12 +18,14 @@ li a{
   width: 200px;
  
   text-indent: 15px;
+  padding-block-end:5px;
   
 }
 
 li a:hover{
   background-color: greenyellow;
-  color: black;
+  color: rgb(148, 58, 232);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  
 }
 /* this is how to add a font from the font book*/
 @font-face{
