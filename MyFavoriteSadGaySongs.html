@@ -2,6 +2,7 @@
 <!doctype html>
 <HTML lang="en">
 <head>
+    
     <meta charset="utf-8">
     <meta name="description"
           content="This is a site that the students will use for practicing HTML with a lot of information"/>
@@ -10,18 +11,14 @@
     
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-    <div class="backtohome">
-        <img src="images/BACK TO HOME.png" style="width:100px; padding: 10px;" onclick="location.href='index.html'">
-    </div>
+  
 
 </head>
 
+
 <style>
 
-.backtohome :hover{
-        transform: scale(1.05);
-        cursor: pointer;
-    }
+
 
 html{
 
@@ -265,8 +262,23 @@ html{
       flex-direction:row;
       flex-wrap: wrap;
   }
+
+  .backtohome{
+    position:relative;
+    z-index: 1;
+
+  }
+
+  .backtohome :hover{
+        transform: scale(1.05);
+        cursor: pointer;
+        
+  }
 </style>
 <body>
+    <div class="backtohome">
+        <img src="images/BACK TO HOME.png" onclick="location.href='index.html'" style="width:100px; padding: 10px;" >
+    </div>
 
 <h1 class="title" id="Top">My Favorite Sad Gay Songs </h1>
 <h3 class="maintitle">By Natalie Rosenstrom</h3>
@@ -274,7 +286,7 @@ html{
      src="https://media.istockphoto.com/id/689320226/photo/sad-woman-at-the-meadow.jpg?s=1024x1024&w=is&k=20&c=_hPIXIFKrOyAto1erNRUUqq4mndR9SfMecmE_S5YOoI=">
 <br>
 
-<img alt="raingif" width=100% height=120% src="gayimages/raingif.gif" class="raingif"></a>
+<img alt="raingif" width=100% height=150% src="gayimages/raingif.gif" class="raingif"></a>
 
 <nav>
     <ul>
@@ -539,7 +551,7 @@ html{
 </p>
 <div class="coolaboutitimageandtext">
 
-<img  width= 300px height=300px src="gayimages/" class="coolaboutitpicture">
+<img  width= 300px height=300px src="gayimages/coolaboutitedit.png" class="coolaboutitpicture">
 <div class="coolaboutitbackgroundcolor">
 <p><span>
     Met you at the dive bar to go shoot some pool<br>
