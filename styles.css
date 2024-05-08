@@ -73,7 +73,26 @@ h2{
 
 .logos{
   text-align: right;
+ 
 }
+.websquare{
+  float:right;
+}
+
+.websquare{
+ 
+  
+  cursor: pointer;
+  width: 250px;
+
+}
+.websquare:hover{
+  transform: scale(1.05);
+  filter:saturate(700%);
+  border-radius: 10%;
+  
+}
+
 .wholeshabang{
     margin:0px;
     align-items:  center;
