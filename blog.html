@@ -46,9 +46,9 @@
     .pagewrap{
         margin-top: -110px;
        margin-left:190px;
-       margin-right:150px;
+       margin-right:100px;
         justify-content: center;
-        background-color:rgb(171, 181, 0);
+        background-color:rgb(215, 226, 1);
         padding:60px;
         align-items: center;
         
@@ -66,18 +66,37 @@
         max-width: 400px;
        
     }
-    @media (max-width:768px){
-        .webdesign{
-            width: 200px;
-        }
-    }
+
     .cover:hover{
             cursor: pointer;
             transform: scale(1.05);
         filter:saturate(700%);
         }
 
-       
+.flex-container {
+  
+    display: flex;
+  
+  justify-content: space-evenly; 
+  align-items: stretch; 
+  /* flex-flow: row wrap; */ 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  align-content: space-around;
+
+
+  background-image:radial-gradient(rgb(255, 255, 255), rgb(116, 119, 255));
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.flex-container > div{
+  background: #ffecb3;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+}
   
 </style>
 </head>
@@ -94,33 +113,58 @@
         <img class="catrunsleep"  src="images/catrunsleep.gif">
         <h1 class="wordsandsuch">blog</h1>
 
-        <h3>mirror selfies in cornish bathrooms</h3>
-        <img class=cover style=width:300px src="blogimag/bathroom pics/1.jpeg" onclick="location.href='bathroompics.html'">
-
-        <h3> MAY FAVORITES</h3>
-            <img class=cover src="blogimag/mayfavorites/mayfavoritesthumbnail.png" onclick="location.href='mayfavs.html'">
         
-        <h3>4/8/24 Tulips</h2>
-                <img class=cover src="blogimag/tulips/tulipthumbnail copy.jpg" onclick="location.href='tulips.html'">
-            
-
-            
-        <h3>4/8/24 Trip to Buffalo, New York</h4>
-             <img class="cover" src="blogimag/Frame 4.png" onclick="location.href='buffalo.html'" alt="Buffalo">
-
-        <h4>August 10, 2023</h4>
-            <img class=cover src="images/youworeme.jpg" style=" align-items: center; width: 300px;" onclick="location.href='emocomic.html'">
-
-
-        <h4>June 26, 2023</h4>
-            <img src="images/potato.jpg" >
-            <p>I have amazing powers of recollection. My potato was dry and life goes on.</p>
         
+        
+        
+        <div class="flex-container">
+     
+                <div class="item1">
+                    <h3>mirror selfies in cornish bathrooms</h3>
+                    <img class=cover style=width:300px src="blogimag/bathroom pics/1.jpeg" onclick="location.href='bathroompics.html'">
+                </div>
+
+                <div class="item2">
+                    <h3> MAY FAVORITES</h3>
+                    <img class=cover src="blogimag/mayfavorites/mayfavoritesthumbnail.png" onclick="location.href='mayfavs.html'">
+                </div>
+                
+                <div class="item3">
+                    <h3>4/8/24 Tulips</h2>
+                    <img class=cover src="blogimag/tulips/tulipthumbnail copy.jpg" onclick="location.href='tulips.html'">
+                </div>
+
+                <div class="item4">
+                    <h3>4/8/24 Trip to Buffalo, New York</h4>
+                    <img class="cover" src="blogimag/Frame 4.png" onclick="location.href='buffalo.html'" alt="Buffalo">
+                </div>
+
+                <div class="item5">
+                    <h4>August 10, 2023</h4>
+                    <img class=cover src="images/youworeme.jpg" style=" align-items: center; width: 300px;" onclick="location.href='emocomic.html'">
+                </div>
+
+                <div class="item6"> 
+                    <h4>June 26, 2023</h4>
+                    <img src="images/potato.jpg" >
+                    <p>I have amazing powers of recollection. <br>
+                        My potato was dry and life goes on.</p>
+                </div>
+
+                <div class="item7">item 7</div>
+                <div class="item8">item 8</div>
+                <div class="item9">item 9</div>
+                <div class="item10">item 10</div>
+                <div class="item11">item 11</div>
+                <div class="item12">item 12</div>
             
-            
+         </div>
         
     
     </div>
+
+  
+
 </body>
 
 </html>

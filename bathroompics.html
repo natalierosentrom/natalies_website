@@ -1,113 +1,142 @@
 <!DOCTYPE html>
 <html>
-    
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="backtohome">
-  <img src="images/BACK TO HOME.png" style="width:100px; padding: 10px;" onclick="location.href='index.html'">
-</div>
-
 <style>
-    @font-face{
-    font-family: knobby-knees;
-    src:url(./fonts/knobby-knees.ttf)
-}
+    @font-face {
+        font-family: knobby-knees;
+        src: url(./fonts/knobby-knees.ttf);
+    }
 
-h1{
-    font-family: knobby-knees;
-}
-* {
-  box-sizing: border-box;
-  background-color: rgb(255, 0, 102);
-}
+    h1 {
+        font-family: knobby-knees;
+    }
 
-h1{
-  color: white;
-    text-align: center;
-    padding:15px;
-    margin-top: -90px;
-}
- .page{
-    background-color: blue;
- }
+    * {
+        box-sizing: border-box;
+        background-color: rgb(255, 0, 102);
+        margin: 0;
+        padding: 0;
+    }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-  
-}
+    h1 {
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: -90px;
+    }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  
-}
+    .page {
+        background-color: blue;
+    }
 
-@media only screen and (max-width: 700px) {
-  
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
 
-.column{
-    width: 100%;
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .column {
+            width: 100%;
+        }
+
+        .image-grid {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+    }
+
+    h1 {
+      margin-top: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    h5 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    h3, h4 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .backtohome:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 10px;
+        margin-left: 170px;
+        margin-right: 170px;
+    }
+
+    .column {
+        flex: 1 1 300px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .backtohome {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .backtohome img {
+        width: 100px;
+    }
+
+    h4:hover{
+      background-color: red;
   }
-}
-
-
-h1{
-    color: rgb(0, 0, 0);
-}
-
-h5{
-  color:rgb(0, 0, 0);
-  text-align: center;
-}
-
-h3,h4 {
-  color:rgb(0, 0, 0);
-  text-align: center;
-}
-
-.backtohome :hover{
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
-.image-grid {
-    display: flex;
-    
-    padding-left:200px;
-    padding-right:200px;
-}
-
-.column {
-    flex: 1;
-    padding: 15px;
-   
-}
-
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 30px;
-}
-
-
+  h4 {
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(255, 183, 227);
+      width:100px;
+      height: 60px;
+      border-radius: 20px;
+      text-align: center;
+      margin: 20px auto; /* Center horizontally */
+      
+     
+  }
 </style>
 
 </head>
 <body>
+<div class="backtohome">
+    <img src="images/BACK TO HOME.png" onclick="location.href='index.html'">
+</div>
 
-
-  
-<h1>mirror pictures from the cornish bathroom</h1>
+<h1>mirror pictures from the cornish bathrooms</h1>
 <h3>Fall/Spring 2024</h3>
-<h4>Most Recent At Top</h4>
+<h3>Most Recent At Top</h3>
 
 <div class="image-grid">
     <div class="column">
@@ -118,7 +147,6 @@ img {
         <img src="blogimag/bathroom pics/9.jpeg" alt="Image 9">
         <img src="blogimag/bathroom pics/11.jpeg" alt="Image 11">
         <img src="blogimag/bathroom pics/13.jpeg" alt="Image 13">
-      
         <img src="blogimag/bathroom pics/17.jpeg" alt="Image 17">
         <img src="blogimag/bathroom pics/19.jpeg" alt="Image 19">
         <img src="blogimag/bathroom pics/21.jpeg" alt="Image 21">
@@ -131,13 +159,10 @@ img {
         <img src="blogimag/bathroom pics/35.jpeg" alt="Image 35">
         <img src="blogimag/bathroom pics/37.jpeg" alt="Image 37">
         <img src="blogimag/bathroom pics/39.jpeg" alt="Image 39">
-    
-        
         <img src="blogimag/bathroom pics/45.jpeg" alt="Image 45">
         <img src="blogimag/bathroom pics/47.jpeg" alt="Image 47">
         <img src="blogimag/bathroom pics/49.jpeg" alt="Image 49">
         <img src="blogimag/bathroom pics/48.jpeg" alt="Image 48">
-
     </div>
     <div class="column">
         <img src="blogimag/bathroom pics/2.jpeg" alt="Image 2">
@@ -163,14 +188,8 @@ img {
         <img src="blogimag/bathroom pics/42.jpeg" alt="Image 42">
         <img src="blogimag/bathroom pics/44.jpeg" alt="Image 44">
         <img src="blogimag/bathroom pics/46.jpeg" alt="Image 46">
-       
-
     </div>
 </div>
-
-
-
-
+<h4><a href="#Top">Back to top</a></h4>
 </body>
 </html>
-

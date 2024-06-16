@@ -34,32 +34,112 @@
 }
 
 
+
+img:hover{
+    filter:saturate(200%);
+    transform: scale(1.02);
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+a{
+    font-family: cursive;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color:red;
+
+}
+.flex-container {
+  
+  display: flex;
+  
+  justify-content: space-evenly; 
+  align-items: stretch; 
+  /* flex-flow: row wrap; */ 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  align-content: space-around;
+
+  background-color: #ffffff;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+
+}
+
+.flex-container > div{
+  background: #ffffff;
+  border: 3px solid #ff0000;
+  border-radius: 5px;
+  padding: 8px;
+}
 </style>
+
 <body>
-
-
-
-
 <br>
 
-<h1>i need to figure out how to use a grid and then it will look better</h1>
+<h1>projects ive done at #college </h1>
 
-<p>
-    <a href="emocomic.html">Blue Book</a><br>
-<a href="speedball.html">Speedball Redesign</a><br>
-<a href="freaky.html">Margot Interview Exploding Femininity</a> <br>
-<a href="eggdrop.html">Eggdrop Packaging</a><br>
-<a href="ParisProject.html">Redesigning the Paris 2024 Olympics </a> <br>
-<a href="MyFavoriteSadGaySongs.html">My Favorite Sad Gay Songs</a> <br>
-<a href="Cube.html">Cube Project</a> <br> 
-<a href="Gitchy Goo.html">Gitchy Goo Children's Sensory Book</a> <br> 
-<a href="LittleLadyLamp.html">Little Lady Lamp Design</a> <br> 
-<a href="TheShining.html">The Shining Poster</a> <br>
+  
+  <div class="flex-container">
+     
+    <div class="item1"><img src="school stuff/cheeseboy/klaascover.png" onclick="location.href='theboywhowantedmorecheese.html'">
+        <br>
+        <a href="theboywhowantedmorecheese.html">The Boy Who Wanted More Cheese</a>
+    </div>
+      <div class="item2"><img src="school stuff/emobookpics/bluebookcover.png" onclick="location.href='emocomic.html'">
+        <br>
+        <a href="emocomic.html">Blue Book</a>
+    </div>
 
-</p>
-
-
+      
+    <div class="item3"><img src="school stuff/Paris Project/pariscover.png" onclick="location.href='ParisProject.html' ">
+        <br>
+        <a href="ParisProject.html">Redesigning the Paris Olympics</a>
+    </div>
+      <div class="item4"><img src="school stuff/speedball/speedballcover.png" onclick="location.href='speedball.html' ">
+        <br>
+        <a href="speedball.html">Redesigning Speedball</a>
+    </div>
+      <div class="item5"><img src="school stuff/margot/margotcover.png" onclick="location.href='freaky.html' ">
+        <br>
+        <a href="freaky.html">Margot Interview: Exploding Femininity</a>
+    </div>
+      <div class="item6"><img src="school stuff/eggdrop/eggdropcover.png" onclick="location.href='eggdrop.html' ">
+        <br>
+        <a href="eggdrop.html">Eggdrop</a>
+    </div>
+      <div class="item7"><img src="gayimages/gaysongscover.png" onclick="location.href='MyFavoriteSadGaySongs.html' ">
+        <br>
+        <a href="MyFavoriteSadGaySongs.html">My First Website</a>
+    </div>
+    <div class="item8"><img src="school stuff/Lamp Project/ladylampcover.png" onclick="location.href='LittleLadyLamp.html' ">
+        <br>
+        <a href="LittleLadyLamp.html">Little Lady Lamp</a>
+    </div>
+    <div class="item9"><img src="school stuff/cube/cubecover.png" onclick="location.href='Cube.html' ">
+        <br>
+        <a href="Cube.html">Implied Cube</a>
+    </div>
+      <div class="item10"><img src="school stuff/The Shining Poster/shiningcover.png" onclick="location.href='TheShining.html' ">
+        <br>
+        <a href="TheShining.html">Movie Poster Without The Movie</a>
+    </div>
+      <div class="item11"><img src="school stuff/knobbyknees/knobbykneescover.png" onclick="location.href='knobbyknees.html' ">
+        <br>
+        <a href="knobbyknees.html">Knobby Knees Typeface</a>
+    </div>
+      <div class="item12">item 12</div>
+      <div class="item13">item 13</div>
+      <div class="item14">item 14</div>
+      <div class="item15">item 15</div>
+  
+  </div>
 
 
 </body>
+
 </html>
