@@ -1,6 +1,7 @@
 body{
     background-image: url("images/twodolphins.jpeg");
     background-size: cover;
+    background-color: #f48fb1;
 }
 
 ul{
@@ -25,7 +26,7 @@ li a{
 li a:hover{
   background-color: greenyellow;
   color: rgb(148, 58, 232);
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  
 }
 /* this is how to add a font from the font book*/
 @font-face{
@@ -61,18 +62,11 @@ h2{
     font-family: knobby-knees;
 }
 
-.NRBanner{
- 
-  max-width: 100%;
-  height:260;
-  width: auto;
-  width: 600px;
-  object-fit: cover;
-  padding:0px;
-}
 
 .logos{
   text-align: right;
+  margin-top: -40px;
+  padding:15px;
  
 }
 .websquare{
