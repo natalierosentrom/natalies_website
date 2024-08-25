@@ -1,13 +1,13 @@
 body{
-    background-image: url("images/twodolphins.jpeg");
-    background-size: cover;
+    background-image: url("images/blackandwhitestripes.jpg");
+    background-size:contain;
     background-color: #f48fb1;
 }
 
 ul{
   color:antiquewhite;
   list-style-type: none;
-  padding:20px;
+  padding:40px;
   
 }
 
@@ -69,21 +69,18 @@ h2{
   padding:15px;
  
 }
-.websquare{
-  float:right;
-}
+
 
 .websquare{
  
-  
   cursor: pointer;
   width: 250px;
-
+  float:right;
+  padding-right:45px;
 }
 .websquare:hover{
   transform: scale(1.05);
   filter:saturate(700%);
-  border-radius: 10%;
   
 }
 
@@ -111,7 +108,7 @@ h2{
 
 .logoadjust{
     float:right;
-    padding-right: 10px;
+    padding-right: 45px;
     
 }
 

@@ -22,7 +22,6 @@ function createButton(soundName) {
     buttonsDiv.appendChild(btn)
 }
 
-createButton("fun button")
 
 function stopSongs() {
     sounds.forEach(sound => {
