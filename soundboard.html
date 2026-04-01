@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nallie's S0unDBoard</title>
+    <title>Soundboard</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <div class="backtohome">
-        <img src="images/BACK TO HOME.png" style="width:100px; padding: 10px;" onclick="location.href='index.html'">
+        <img src="images/BACK TO HOME.png" style=" margin-left: 0; width:100px; padding: 10px;" onclick="location.href='index.html'">
     </div>
     <style>
+
+    
         * {
             box-sizing: border-box;
             
@@ -21,7 +23,7 @@
             color:black;
         }
         body {
-            /*background-image: url("images/spike.jpeg");*/
+            background-image: url("https://i.pinimg.com/736x/42/b8/14/42b814aa7b2a98c7cf829136d72c5edd.jpg");*/
             background-color: rgb(0, 0, 0);
             display: flex;
             flex-wrap: wrap;
@@ -54,12 +56,21 @@
         .btn:focus {
             outline: none;
         }
+
+        .container{
+            background-color: rgba(0, 0, 0, 0.56);
+        }
     </style>
 
 </head>
 
 <body>
-    <div>
+
+<div class="container">
+    <div> 
+        <iframe width="110" height="200" src="https://www.myinstants.com/instant/apple-pay-45496/embed/" frameborder="0" scrolling="no"></iframe>
+        <iframe width="110" height="200" src="https://www.myinstants.com/instant/bing-chilling-44511/embed/" frameborder="0" scrolling="no"></iframe>
+        <iframe width="110" height="200" src="https://www.myinstants.com/instant/alien-giggle-67071/embed/" frameborder="0" scrolling="no"></iframe>
         <iframe width="110" height="200" src="https://www.myinstants.com/instant/sparkleeeeeee-19288/embed/" frameborder="0" scrolling="no"></iframe>
         <iframe width="110" height="200" src="https://www.myinstants.com/instant/dj-airhorn/embed/" frameborder="0" scrolling="no"></iframe>
     </div>
@@ -114,6 +125,8 @@
     <audio id="dun dun" src="sounds/dun dun.mp3"></audio>
     <audio id="what da hell" src="sounds/what da hell.mp3"></audio>
     <audio id="Star Trek Red Alert" src="sounds/Star Trek Red Alert.mp3"></audio>
+
+</div>
 
     <div id="buttons"></div>
     <script src="script.js"></script>
