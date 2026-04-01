@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 2px;
+}
+
+.flex-item-one {
+  background-color: pink;
+  flex-basis: 20%;
+}
+
+.flex-item-two {
+  background-color: rgb(171, 255, 197);
+  flex-basis: 30%;
+}
+
+.flex-item-three {
+  background-color: darkkhaki;
+  flex-basis: 50%;
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>natalie rosenstrom</h1>
+
+<div class="flex-container">
+  <div class="flex-item flex-item-one">flex-item-one</div>
+  <div class="flex-item flex-item-two">flex-item-two</div>
+  <div class="flex-item flex-item-three">flex-item-three</div>
+</div>
+
+</body>
+</html>
